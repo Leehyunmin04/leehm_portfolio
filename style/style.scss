@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  &_right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.main {
+  background-color: aqua;
+}
+
+.bottom {
+  background-color: bisque;
+}
