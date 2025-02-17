@@ -2,20 +2,27 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 .nav {
-  background-color: aquamarine;
+  background-color: #e4e4e4;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-block: 23px;
+  padding-inline: 70px;
   &_right {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: end;
   }
 }
 
 .main {
-  background-color: aqua;
+  // background-color: ;
 }
 
 .bottom {
-  background-color: bisque;
+  // background-color: bisque;
 }
