@@ -31,7 +31,7 @@ img {
 .background {
   background-color: #09244d;
   z-index: -1;
-  padding: 160px;
+  padding: 140px;
   text-align: center;
   align-items: center;
   left: 0;
@@ -109,9 +109,14 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-@media (max-width: 900px) {
+@media (max-width: 1180px) {
   .project__wrap {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 750px) {
+  .project__wrap {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .project__wrap-in {

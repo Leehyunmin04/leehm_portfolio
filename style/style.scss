@@ -41,7 +41,7 @@ body {
   background-color: #09244d;
   z-index: -1;
   // position: absolute;
-  padding: 160px;
+  padding: 140px;
   text-align: center;
   align-items: center;
   left: 0;
@@ -127,8 +127,11 @@ body {
     // background-color: #09244d;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    @media (max-width: 900px) {
-      grid-template-columns: repeat(2, 1fr); // 화면이 작아지면 2개
+    @media (max-width: 1180px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 750px) {
+      grid-template-columns: repeat(1, 1fr);
     }
     // grid-template-rows: 1fr 1fr;
     &-in {
