@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="./style/reset.css" />
   </head>
   <body>
+    <!-- <div>
+      <div class="back_img">
+        <img src="./assets/mock-up/Posters_on_Fence_Mockup_3-1.png" />
+      </div>
+    </div> -->
     <div class="nav">
       <div class="nav_left">
         <div>아이콘</div>
@@ -18,47 +23,74 @@
         <div>프로필</div>
       </div>
     </div>
+    <div class="background"></div>
     <div class="main">
-      <div>
-        <!-- <img src="./assets/title2-img.png" /> -->
-      </div>
+      <!-- <div>
+        <img src="./assets/title2-img.png" />
+      </div> -->
+
       <div class="profile">
-        <h1 class="profile__title">profile</h1>
+        <!-- <h1 class="profile__title">profile</h1> -->
         <div class="profile__wrap">
-          <div class="profile__text">
-            <div>이현민</div>
-            <div>2004.04.06</div>
-            <div>상명대학교</div>
-            <div>커뮤니케이션디자인</div>
-            <div>이메일 - leehm1944@gmail.com</div>
-          </div>
           <div class="profile__img">
-            <img src="./assets/nothing.png" />
+            <img class="profile__img-img" src="./assets/mock-up/lee.png" />
+          </div>
+          <div class="profile__text">
+            <div class="profile__text-name profile__text-in">이현민</div>
+            <div class="profile__text-in">2004.04.06</div>
+            <div class="profile__text-in">상명대학교</div>
+            <div class="profile__text-in">커뮤니케이션디자인</div>
+
+            <a
+              class="profile__text-email profile__text-in"
+              href="mailto:leehm1944@gmail.com"
+            >
+              <svg
+                class="profile__text-email-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+              >
+                <path
+                  d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"
+                />
+              </svg>
+              <div>leehm1944@gmail.com</div>
+            </a>
           </div>
         </div>
       </div>
 
       <div class="project">
-        <h1>project</h1>
-        <div class="project-in">
-          작업물1
-          <img src="./assets/t2_typo-img.png" />
-        </div>
-        <div class="project-in">
-          작업물2
-          <img src="./assets/t2-typo-text.png" />
-        </div>
-        <div class="project-in">
-          작업물3
-          <img src="./assets/t1.png" />
-        </div>
-        <div class="project-in">
-          작업물4
-          <img src="./assets/cd1.png" />
-        </div>
-        <div class="project-in">
-          작업물5
-          <img src="./assets/wd-main.png" />
+        <h1 class="project__text">project</h1>
+        <div class="project__wrap">
+          <a href="./project/index.html" class="project__wrap-in">
+            <img
+              class="project__wrap-in-img"
+              src="./assets/mock-up/Laptop_Screen_Website_Mockup-2.png"
+            />
+          </a>
+          <a class="project__wrap-in">
+            <img
+              class="project__wrap-in-img"
+              src="./assets/mock-up/Enamelled_Mug_Mockup_5.png"
+            />
+          </a>
+          <a class="project__wrap-in">
+            <img
+              class="project__wrap-in-img"
+              src="./assets/mock-up/aseries_Frame_Poster.png"
+            />
+          </a>
+          <a class="project__wrap-in">
+            <img
+              class="project__wrap-in-img"
+              src="./assets/mock-up/Posters_on_Fence_Mockup_3-1.png"
+            />
+          </a>
+          <a class="project__wrap-in">
+            <img class="project__wrap-in-img" src="./assets/t1.png" />
+          </a>
         </div>
       </div>
     </div>
