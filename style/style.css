@@ -24,8 +24,9 @@ img {
 }
 .nav_right {
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  place-items: end;
+  place-items: center end;
 }
 .nav__icon {
   padding: 0;

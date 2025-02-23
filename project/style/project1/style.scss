@@ -23,8 +23,9 @@ img {
   }
   &_right {
     display: grid;
+    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
-    place-items: end;
+    place-items: center end;
   }
   &__icon {
     padding: 0;
