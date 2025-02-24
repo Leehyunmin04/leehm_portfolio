@@ -3,14 +3,8 @@
 }
 
 img {
-  // max-width: 10%;
   display: block;
 }
-
-body {
-  // background-color: black;
-}
-
 .nav {
   position: fixed;
   background-color: #fbfbfb;
@@ -45,39 +39,23 @@ body {
     border-radius: 15px;
   }
 }
-
-.main {
-  // background-color: ;
-}
-
-.background {
-  background-color: #09244d;
-  z-index: -1;
-  // position: absolute;
-  padding: 140px;
-  text-align: center;
-  align-items: center;
-  left: 0;
-  right: 0;
-  top: 0;
-}
-
 .profile {
-  padding-left: 30px;
-  width: 20%;
+  // padding-left: 30px;
+  // width: 20%;
   display: grid;
-  position: fixed;
+  // position: fixed;
+  margin-top: 200px;
 
   color: #09244d;
   font-size: 40px;
   font-weight: 500;
   text-align: center;
-  top: 10%;
+  // top: 10%;
   &__title {
-    padding-bottom: 30px;
+    // padding-bottom: 30px;
   }
   &__wrap {
-    background-color: #fbfbfb;
+    // background-color: #fbfbfb;
     // border: solid #09244d;
     border-radius: 17px;
     padding: 25px;
@@ -111,56 +89,18 @@ body {
   }
   &__img {
     width: 100%;
+    display: flex;
+    justify-content: center;
     object-fit: contain;
+    text-align: center;
+    margin-inline: auto;
+
     &-img {
+      width: 20%;
       border-radius: 100%;
       padding: 50px;
       // padding-top: 10px;
     }
     // background-color: #777777;
   }
-}
-
-.project {
-  margin-left: 22%;
-  // background-color: #f7f7f7;
-  color: #09244d;
-  // color: #3e78d0;
-  padding-block: 50px;
-  padding-right: 20px;
-  // font-size: 60px;
-  font-weight: 500;
-  // text-align: center;
-  // place-items: center;
-  // width: 50%;
-  &__text {
-    padding-left: 10px;
-  }
-  &__wrap {
-    // background-color: #09244d;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    @media (max-width: 1180px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    @media (max-width: 750px) {
-      grid-template-columns: repeat(1, 1fr);
-    }
-    // grid-template-rows: 1fr 1fr;
-    &-in {
-      font-size: 20px;
-      &-img {
-        object-fit: cover;
-        aspect-ratio: 11 / 7;
-        border-radius: 20px;
-        padding: 10px;
-      }
-    }
-  }
-}
-
-.bottom {
-  background-color: #09244d;
-  padding-block: 50px;
-  // background-color: bisque;
 }
