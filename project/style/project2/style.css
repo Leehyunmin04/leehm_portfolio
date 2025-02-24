@@ -59,11 +59,6 @@ img {
   padding-top: 33px;
 }
 
-.img {
-  -webkit-mask-image: linear-gradient(rgba(238, 238, 238, 0), #eeeeee, #eeeeee, #eeeeee);
-          mask-image: linear-gradient(rgba(238, 238, 238, 0), #eeeeee, #eeeeee, #eeeeee);
-}
-
 .pattern {
   padding-inline: 100px;
   display: grid;
