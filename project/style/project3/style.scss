@@ -25,6 +25,11 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center end;
+    &-text {
+      color: #09244d;
+      text-decoration: none;
+      font-weight: 450;
+    }
   }
   &__icon {
     padding: 0;
